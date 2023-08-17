@@ -1,0 +1,46 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lilita One', cursive;
+    color: rgb(0, 0, 0);
+}
+
+#formulario{
+    background-color: rgb(255, 166, 0);
+    width: 445px;
+    height: 200px;
+    margin: 300px auto;
+}
+input{
+    border-radius: 4px;
+    width: 60px;
+    border: none;
+}
+label{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+header{
+    padding-top: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.imc{
+    margin-top: 15px;
+}
+#label-imc{
+    text-align: center;
+    margin-left: 150px;
+}

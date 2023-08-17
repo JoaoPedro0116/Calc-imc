@@ -1,0 +1,38 @@
+<!Doctype html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo de Exercício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="formulario">
+          
+        <header>
+            <h1>Calculo IMC</h1>
+        </header>    
+
+            <div class="top">
+                <label >Kilos:</label>
+                <input name="kilos" type="text" />
+    
+                <label for="metros">metros:</label>
+                <input name="metros" type="text" />
+    
+                <label for="centimetros">centimetros:</label>
+                <input name="centimetros" type="text" />
+            </div>
+        
+
+        <div class="imc">
+            <label id="label-imc">imc:</label>
+            <input name="imc" type="text" disabled="disabled" />
+                
+            <button onclick="calcular();">Calcular<button>
+        </div>
+           
+        
+    <script src="script.js"></script>
+</body>
+</html>
