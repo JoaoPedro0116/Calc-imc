@@ -20,6 +20,7 @@ function calcular(){
     var imc = kilos / (altura * altura);
     
     // o metodo toFixed fixa apenas duas casas decimais apos o ponto.
+    // O método toFixed(2) arredonda o valor do IMC para duas casas decimais antes de atribuí-lo ao campo.
     formulario.imc.value = imc.toFixed(2);
     // condicoes
     if(imc < 20)
@@ -46,6 +47,9 @@ function calcular(){
     {
         alert("Obesidade Morbida");
     }
+
+// Esta condição parece estar incorreta. O operador => deveria ser === para verificar se o campo "imc" está vazio.
+// Se o campo estiver vazio, exibe um alerta pedindo para preenchê-lo.
     else if (imc => "")
     {
         alert('campo vazio, preencha.');
